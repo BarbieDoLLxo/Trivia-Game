@@ -29,7 +29,16 @@ var intervalId;
 
         // DONE: Use setInterval to start the count here and set the clock to running.
         if (!clockRunning) {
-          intervalId = setInterval(count, 1000);
+          intervalId = setInterval(function(){
+count();
+
+if (time<1){
+clearInterval(intervalId);
+
+
+}
+
+          } ,1000);
           clockRunning = true;
          
           
