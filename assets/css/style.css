@@ -1,0 +1,46 @@
+.main {
+border: 2px solid black;
+border-color: blue;
+height:700px;
+width:100%;
+background-color: brown;
+
+
+
+
+}
+
+.btn{
+    background-color: rgb(243, 42, 199);
+    margin: 60px;
+}
+
+
+.middle{
+width:70%;
+height:500px;
+margin-left: 225px;
+background-color: darkorchid;
+margin-top: 5px;
+
+
+}
+
+.head{
+
+    margin-left: 25px;
+    margin-top: 40px;
+
+}
+
+
+.center{
+
+    width:200px;
+    height:100px;
+    margin-left:100px;
+    background-color: blanchedalmond;
+    font-size: 38pt;
+
+
+}
