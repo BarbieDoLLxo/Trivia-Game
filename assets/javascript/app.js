@@ -205,7 +205,7 @@ function timeConverter(t) {
     {
       question: "Which of these is a fruit?",
       answers: {
-        a: "Avacado",
+        a: "Avocado",
         b: "Lettuce",
         c: "Tomato"
       },
