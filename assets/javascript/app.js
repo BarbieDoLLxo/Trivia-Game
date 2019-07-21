@@ -221,7 +221,7 @@ function timeConverter(t) {
       correctAnswer: "c"
     },
     {
-      question: "Why is it so hot ouside?",
+      question: "Why is it so hot outside?",
       answers: {
         a: "Global Warming",
         b: "Too Much Exploring the Pacific Ocean",
