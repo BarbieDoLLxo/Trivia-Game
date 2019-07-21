@@ -1,9 +1,10 @@
 .main {
-border: 2px solid black;
-border-color: blue;
-height:700px;
+
+height:800px;
 width:100%;
 background-color: rgb(243, 9, 118);
+
+
 
 
 
@@ -14,12 +15,17 @@ background-color: rgb(243, 9, 118);
     background-color: rgb(155, 20, 125);
     margin: 60px;
 }
-
+.btn2
+{
+    background-color: rgb(155, 20, 125);
+    margin: 60px;
+    float: right;
+}
 
 .middle{
 width:70%;
-height:500px;
-margin-left: 225px;
+height:50px;
+margin-left: 22px;
 background-color: rgb(83, 13, 117);
 margin-top: 5px;
 
@@ -37,10 +43,82 @@ margin-top: 5px;
 .center{
 
     width:200px;
-    height:100px;
+    height:80px;
     margin-left:100px;
     background-color: blanchedalmond;
     font-size: 38pt;
+    color: rgb(93, 73, 48)
 
 
 }
+
+h1, h2 {
+    color: cornflowerblue;
+}
+
+footer {
+
+    background-color: rgb(243, 9, 118);
+
+}
+/* .right
+{
+width:20px;
+height:70px;
+border-color: black;
+padding: 10pt;
+margin-right: 600x;
+font-size: 60pt;
+color: brown;
+} */
+
+
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+}
+.question{
+    font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: #38a;
+}
+
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .active-slide{
+    opacity: 1;
+    z-index: 2;
+  }
+  .quiz-container{
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+  }
