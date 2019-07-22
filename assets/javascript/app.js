@@ -145,15 +145,15 @@ function timeConverter(t) {
 
 
 
-function submit();
+// function submit();
     
     
     
     
-  var question1;
-var question2;
-var question3;
-var correct = 0;
+//   var question1;
+// var question2;
+// var question3;
+// var correct = 0;
 
 
 
