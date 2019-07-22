@@ -35,12 +35,10 @@ clearInterval(intervalId);
 
 }
 
-          } ,1000);
-          clockRunning = true;
+ } ,1000);
+  clockRunning = true;
          
-          
-              
-          }
+ }
 
 function stop(){
     if (time< 0);
@@ -58,13 +56,6 @@ $(".center").append("00:00");
 
 
 
-
-
-
-var converted = timeConverter(time);
-
- 
-  
 
 function count() {
 
@@ -101,31 +92,25 @@ function timeConverter(t) {
 
 
 
-function timeConverter(t) {
+$(".btn2").on("click", function(){ 
 
+  submit();
   
-  var minutes = Math.floor(t / 60);
-  var seconds = t - (minutes * 60);
-
-  if (seconds < 10) {
-    seconds = "0" + seconds;
-  }
-
-  if (minutes === 0) {
-    minutes = "00";
   
-  }
-
-  else if (minutes < 10) {
-    minutes = "0" + minutes;
-  }
-
-  return minutes + ":" + seconds;
-
   
+      })
+
+
+      var submitAnswers=false;
+      var correctAnswers;
+      
+      function submit(){
+
+if (submitAnswers >1 ){
 
 }
 
+      }
 
 
 
@@ -134,26 +119,6 @@ function timeConverter(t) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-// function submit();
-    
-    
-    
-    
-//   var question1;
-// var question2;
-// var question3;
-// var correct = 0;
 
 
 
@@ -183,12 +148,6 @@ function timeConverter(t) {
   
   
   
-  // submit();
-  
-  
-  
-  // document.getElementById("correct").innerHTML= " you got" +  correct  + " correct";
-  // document.getElementById("submit").innerHTML.style.visibilty= "visibile";
   
   
   
@@ -251,7 +210,7 @@ function timeConverter(t) {
 
 
 
-// submit.addEventListener("click", showResults);
+
 
 
 
