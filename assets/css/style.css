@@ -1,52 +1,39 @@
-.main {
+#main {
 
-height:800px;
+height:600px;
 width:100%;
-background-color: rgb(243, 9, 118);
-
-
+background-color: rgb(105, 6, 52);
 
 
 }
 
-.btn{
-    background-color: rgb(155, 20, 125);
-    margin: 60px;
-}
-.btn2
-{
-    background-color: rgb(155, 20, 125);
-    margin: 60px;
+#start {
+    font-size:30pt;
+    color: darkmagenta;
 }
 
-/* .middle{
-width:70%;
-height:50px;
-margin-left: 22px;
-background-color: rgb(83, 13, 117);
-margin-top: 5px; */
+
+#timer {
+text-align: center;
+font-size: 30px;
+background-color: rgb(200, 180, 211);
+}
 
 
 
+header {
+text-align: center;
+font-size: 60pt;
+background-color: rgb(105, 6, 52);
 
-.head{
-
-    margin-left: 25px;
-    margin-top: 40px;
 
 }
 
 
-.center{
-
-    width:200px;
-    height:80px;
-    margin-left:100px;
-    background-color: blanchedalmond;
-    font-size: 38pt;
+#quiz {
+     background-color: rgb(82, 233, 220);
+    font-size: 30pt;
     color: rgb(93, 73, 48)
-
-
 }
 
 h1, h2 {
@@ -54,18 +41,23 @@ h1, h2 {
 }
 
 footer {
-
+    font-size: 30pt;
     background-color: rgb(243, 9, 118);
-
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    min-height: 90px;
+    
 }
 
 
+#submit {
+    font-size:30pt;
+    color: darkmagenta;
+}
 
+#results {
 
-
-.answers{
-  display: block;
-  margin-right: 20px;
-  font-size: 40px;
-
+    text-align: center; 
+    font-display: 60pt;
+    color: greenyellow;
 }
